@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{03E7228A-0A87-45B8-A3D6-2F8E169EE458}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{03E7228A-0A87-45B8-A3D6-2F8E169EE458}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="AMB" ID="{56A78DA4-D88A-4A37-B71C-C598ABC4991A}" ShortID="566369330">
+					<ChildrenList>
+						<Event Name="amb_forest" ID="{E8E83737-1BED-40ED-AC63-6EC06F2FDDA7}">
+							<ChildrenList>
+								<Action Name="" ID="{2B8F856F-AB1F-4F01-A2FC-704AB2FEEFD1}" ShortID="93865756">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_forest" ID="{CF7850BD-8795-4A8B-BA95-8B81A9015520}" WorkUnitID="{B222D8D7-EE3D-401E-80B1-9FEDA3F8B32F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

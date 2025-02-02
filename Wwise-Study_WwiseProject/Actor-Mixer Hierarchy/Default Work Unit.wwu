@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B222D8D7-EE3D-401E-80B1-9FEDA3F8B32F}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{B222D8D7-EE3D-401E-80B1-9FEDA3F8B32F}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="AMB" ID="{23BAAB7E-D162-4454-BFD6-1C852E70226F}" ShortID="1005626418">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB6358B0-4EE2-4332-84C2-178A9AA1E095}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3539D48E-A1FE-4021-929A-86A1DAA8B605}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="amb_forest" ID="{CF7850BD-8795-4A8B-BA95-8B81A9015520}" ShortID="398267637">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FB6358B0-4EE2-4332-84C2-178A9AA1E095}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3539D48E-A1FE-4021-929A-86A1DAA8B605}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_forest" ID="{40861C88-EF8E-4E6E-BA0D-79BB22082A51}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_forest.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="188596540"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_forest" ID="{40861C88-EF8E-4E6E-BA0D-79BB22082A51}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
