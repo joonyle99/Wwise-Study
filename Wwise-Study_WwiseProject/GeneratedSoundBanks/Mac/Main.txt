@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3157003241	test			\Default Work Unit\test	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	422809127	test	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\4E\{4E3A5605-6B97-C379-4B26-82670D43484A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\test		22706
+
