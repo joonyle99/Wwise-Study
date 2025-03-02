@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6f44c802318a094ebdf3c00776922229
     GuidInternal: 
-    m_lastTime: -8584606818337441572
-    List: []
+    m_lastTime: -8584606747393186064
+    List:
+    - name: Main
+      guid: 466e3a95b07dda42aa6e1dd0a99098fc
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f44c802318a094ebdf3c00776922229
+      - ElementName: Main
+        ObjectType: 7
+        guid: 466e3a95b07dda42aa6e1dd0a99098fc
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 53af63b8367c504ebe45bcf62260a723
     GuidInternal: 
-    m_lastTime: -8584606818337491439
-    List: []
+    m_lastTime: -8584606772279871758
+    List:
+    - name: foot_player
+      guid: d2b45119d826b64489d885b85d37be0c
+      id: 1894362767
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 53af63b8367c504ebe45bcf62260a723
+      - ElementName: foot_player
+        ObjectType: 3
+        guid: d2b45119d826b64489d885b85d37be0c
+      Path: Events\Default Work Unit\foot_player
+      maxAttenuation: 0
+      maxDuration: 0.56666666
+      minDuration: 0.3
+    - name: test
+      guid: 7558ca2873589d4c8d26b9b7506ee1cf
+      id: 3157003241
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 53af63b8367c504ebe45bcf62260a723
+      - ElementName: test
+        ObjectType: 3
+        guid: 7558ca2873589d4c8d26b9b7506ee1cf
+      Path: Events\Default Work Unit\test
+      maxAttenuation: 0
+      maxDuration: 0.23552084
+      minDuration: 0.23552084
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -122,8 +170,58 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: b1eafb9d6540d746946a6320999b0324
     GuidInternal: 
-    m_lastTime: -8584606818337421625
-    List: []
+    m_lastTime: -8584606774260505871
+    List:
+    - name: Meterial
+      guid: d3ac6145f84a9f47bc16726336c4b4bc
+      id: 1735193030
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b1eafb9d6540d746946a6320999b0324
+      - ElementName: Meterial
+        ObjectType: 11
+        guid: d3ac6145f84a9f47bc16726336c4b4bc
+      Path: Switches\Default Work Unit\Meterial
+      values:
+      - name: concrete
+        guid: 2443a529a63ec24fabae960ced226247
+        id: 841620460
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b1eafb9d6540d746946a6320999b0324
+        - ElementName: Meterial
+          ObjectType: 11
+          guid: d3ac6145f84a9f47bc16726336c4b4bc
+        - ElementName: concrete
+          ObjectType: 10
+          guid: 2443a529a63ec24fabae960ced226247
+      - name: grass
+        guid: 62fc62152cf5aa4ca24a6e1c6670767d
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b1eafb9d6540d746946a6320999b0324
+        - ElementName: Meterial
+          ObjectType: 11
+          guid: d3ac6145f84a9f47bc16726336c4b4bc
+        - ElementName: grass
+          ObjectType: 10
+          guid: 62fc62152cf5aa4ca24a6e1c6670767d
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +237,7 @@ MonoBehaviour:
     m_lastTime: -8584606818337421625
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0a0000000b0000000c000000
+  ExpandedWaapiItemIds: 010000000a0000000b0000000c00000085000000860000008700000088000000230100002401000025010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

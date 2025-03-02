@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="test" ID="{28CA5875-5873-4C9D-8D26-B9B7506EE1CF}">
+					<ChildrenList>
+						<Action Name="" ID="{BF3A7534-F67B-428F-A67F-4784BE608C48}" ShortID="516297065">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="test" ID="{EC9DC1A8-E6F6-4007-949A-C3CEE6DC80C9}" WorkUnitID="{FD5E5981-420A-4FA6-847E-4E6879AC4FDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="foot_player" ID="{1951B4D2-26D8-44B6-89D8-85B85D37BE0C}">
+					<ChildrenList>
+						<Action Name="" ID="{E720ABDC-70DC-421C-AF1F-0D4F09BB7EC8}" ShortID="313070070">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="footsteps" ID="{B8D1C7ED-268B-4A4E-B111-1C09B8008E54}" WorkUnitID="{FD5E5981-420A-4FA6-847E-4E6879AC4FDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

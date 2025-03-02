@@ -13,8 +13,24 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID FOOT_PLAYER = 1894362767U;
         static const AkUniqueID TEST = 3157003241U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace METERIAL
+        {
+            static const AkUniqueID GROUP = 1735193030U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID CONCRETE = 841620460U;
+                static const AkUniqueID GRASS = 4248645337U;
+            } // namespace SWITCH
+        } // namespace METERIAL
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

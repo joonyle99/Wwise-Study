@@ -10,11 +10,35 @@
     "Type": "User",
     "GUID": "{953A6E46-7DB0-42DA-AA6E-1DD0A99098FC}",
     "Language": "SFX",
-    "Hash": "{1CFA10ED-2EBA-BE47-B7EA-AC7650D128E0}",
+    "Hash": "{FEA6CB08-0CC3-347E-EDA2-E79D199C4A9D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "205397140",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_footsteps_grass_2.wav",
+      "CachePath": "C2/{C2E7F335-D94C-FE6C-CB54-8BD56B483621}.wem"
+     },
+     {
+      "Id": "227114721",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_footsteps_grass_1.wav",
+      "CachePath": "EB/{EB1567BB-B1CC-94C2-994E-D802B4E8A596}.wem"
+     },
+     {
+      "Id": "284126865",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_footsteps_concrete_2.wav",
+      "CachePath": "31/{31B90663-C990-CCCF-C9D7-EF1881F7E14B}.wem"
+     },
      {
       "Id": "422809127",
       "Language": "SFX",
@@ -22,9 +46,105 @@
       "Location": "Memory",
       "ShortName": "SFX_Event_Mouse_1.wav",
       "CachePath": "4E/{4E3A5605-6B97-C379-4B26-82670D43484A}.wem"
+     },
+     {
+      "Id": "453948908",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_footsteps_grass_3.wav",
+      "CachePath": "09/{0990A6E2-C945-44E7-4E8B-5B564E7E8CB3}.wem"
+     },
+     {
+      "Id": "579749320",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_footsteps_concrete_3.wav",
+      "CachePath": "7A/{7AB1D9B1-B343-BBB3-6B94-71A987962E44}.wem"
+     },
+     {
+      "Id": "590491571",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_footsteps_concrete_1.wav",
+      "CachePath": "B6/{B64D0C54-AF0F-154B-610E-0329A3064F0A}.wem"
+     },
+     {
+      "Id": "977217431",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_footsteps_grass_4.wav",
+      "CachePath": "75/{7527FF62-5CEA-825C-3D5C-5F55863E8A99}.wem"
+     },
+     {
+      "Id": "1019952929",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_footsteps_concrete_4.wav",
+      "CachePath": "93/{9329A0C0-1D63-610B-1905-8094B15CB185}.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "1894362767",
+      "Name": "foot_player",
+      "ObjectPath": "\\Events\\Default Work Unit\\foot_player",
+      "GUID": "{1951B4D2-26D8-44B6-89D8-85B85D37BE0C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3",
+      "DurationMax": "0.56666666",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1735193030",
+         "Id": "841620460",
+         "GUID": "{29A54324-3EA6-4FC2-ABAE-960CED226247}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "284126865"
+         },
+         {
+          "Id": "579749320"
+         },
+         {
+          "Id": "590491571"
+         },
+         {
+          "Id": "1019952929"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1735193030",
+         "Id": "4248645337",
+         "GUID": "{1562FC62-F52C-4CAA-A24A-6E1C6670767D}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "205397140"
+         },
+         {
+          "Id": "227114721"
+         },
+         {
+          "Id": "453948908"
+         },
+         {
+          "Id": "977217431"
+         }
+        ]
+       }
+      ]
+     },
      {
       "Id": "3157003241",
       "Name": "test",
@@ -39,9 +159,31 @@
        }
       ]
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1735193030",
+      "Name": "Meterial",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Meterial",
+      "GUID": "{4561ACD3-4AF8-479F-BC16-726336C4B4BC}",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Meterial\\concrete",
+        "GUID": "{29A54324-3EA6-4FC2-ABAE-960CED226247}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Meterial\\grass",
+        "GUID": "{1562FC62-F52C-4CAA-A24A-6E1C6670767D}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{351201F5-E4A2-3C15-016F-7D9AE99D330C}"
+  "FileHash": "{DFFF11A8-9E75-E309-64F0-54CDD1C9D538}"
  }
 }

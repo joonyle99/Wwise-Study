@@ -3908,6 +3908,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2057571526}
+    - targetCorrespondingSourceObject: {fileID: 396979693052338569, guid: 8536eef0a5c281642b45c61fc2f8e7e6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1936947720}
   m_SourcePrefab: {fileID: 100100000, guid: 8536eef0a5c281642b45c61fc2f8e7e6, type: 3}
 --- !u!114 &927382649 stripped
 MonoBehaviour:
@@ -6752,6 +6756,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9095763738915585239, guid: 7812ac37636d29b4aa6b0b80bdfecd92,
+        type: 3}
+      propertyPath: m_TagString
+      value: concrete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6967,7 +6976,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 927382648}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1936947715}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
@@ -8084,6 +8093,36 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1936947715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 396979693052338569, guid: 8536eef0a5c281642b45c61fc2f8e7e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 927382648}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1936947720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936947715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a2da0e5149a62e48886a0a3070b005b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!43 &1945076100
 Mesh:
   m_ObjectHideFlags: 0
@@ -10061,7 +10100,7 @@ PrefabInstance:
     - target: {fileID: 4401863854545358135, guid: 6cfaadcb953af1c448a1b82b94f47442,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -34.315033
+      value: -39.026344
       objectReference: {fileID: 0}
     - target: {fileID: 4401863854545358135, guid: 6cfaadcb953af1c448a1b82b94f47442,
         type: 3}
@@ -10521,6 +10560,10 @@ PrefabInstance:
     - target: {fileID: 510551027, guid: 64fb001c79f9ab640849965312f69230, type: 3}
       propertyPath: m_LocalAABB.m_Extent.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2145959464, guid: 64fb001c79f9ab640849965312f69230, type: 3}
+      propertyPath: m_TagString
+      value: grass
       objectReference: {fileID: 0}
     - target: {fileID: 2145959469, guid: 64fb001c79f9ab640849965312f69230, type: 3}
       propertyPath: m_LocalAABB.m_Center.z
@@ -11399,6 +11442,11 @@ PrefabInstance:
       propertyPath: m_Points.Array.data[85].y
       value: 2.2301228
       objectReference: {fileID: 0}
+    - target: {fileID: 6331163737917102241, guid: 64fb001c79f9ab640849965312f69230,
+        type: 3}
+      propertyPath: m_TagString
+      value: grass
+      objectReference: {fileID: 0}
     - target: {fileID: 6331163737917102243, guid: 64fb001c79f9ab640849965312f69230,
         type: 3}
       propertyPath: m_LocalAABB.m_Center.z
@@ -11545,17 +11593,17 @@ PrefabInstance:
     - target: {fileID: 6372339726509719846, guid: 7b1d9d3c1cec0f5419bd2b1ea4481e3c,
         type: 3}
       propertyPath: m_Spline.m_ControlPoints.Array.data[2].m_CornerMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6372339726509719846, guid: 7b1d9d3c1cec0f5419bd2b1ea4481e3c,
         type: 3}
       propertyPath: m_Spline.m_ControlPoints.Array.data[3].m_CornerMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6372339726509719846, guid: 7b1d9d3c1cec0f5419bd2b1ea4481e3c,
         type: 3}
       propertyPath: m_Spline.m_ControlPoints.Array.data[4].m_CornerMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6372339726509719847, guid: 7b1d9d3c1cec0f5419bd2b1ea4481e3c,
         type: 3}
@@ -11685,7 +11733,7 @@ PrefabInstance:
     - target: {fileID: 6372339727032943130, guid: 7b1d9d3c1cec0f5419bd2b1ea4481e3c,
         type: 3}
       propertyPath: m_Spline.m_ControlPoints.Array.data[0].m_CornerMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6372339727032943131, guid: 7b1d9d3c1cec0f5419bd2b1ea4481e3c,
         type: 3}
@@ -11735,7 +11783,7 @@ PrefabInstance:
     - target: {fileID: 6372339727176229870, guid: 7b1d9d3c1cec0f5419bd2b1ea4481e3c,
         type: 3}
       propertyPath: m_Spline.m_ControlPoints.Array.data[1].m_CornerMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6372339727176229871, guid: 7b1d9d3c1cec0f5419bd2b1ea4481e3c,
         type: 3}
