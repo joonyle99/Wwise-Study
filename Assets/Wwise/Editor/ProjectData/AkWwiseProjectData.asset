@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6f44c802318a094ebdf3c00776922229
     GuidInternal: 
-    m_lastTime: -8584606747393186064
+    m_lastTime: -8584604183153109580
     List:
     - name: Main
       guid: 466e3a95b07dda42aa6e1dd0a99098fc
@@ -94,11 +94,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 53af63b8367c504ebe45bcf62260a723
     GuidInternal: 
-    m_lastTime: -8584606772279871758
+    m_lastTime: -8584604181415564068
     List:
-    - name: foot_player
-      guid: d2b45119d826b64489d885b85d37be0c
-      id: 1894362767
+    - name: amb
+      guid: 245de8cfa779a348acd88f89cf0b31c5
+      id: 1117531639
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,13 +106,141 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 53af63b8367c504ebe45bcf62260a723
-      - ElementName: foot_player
+      - ElementName: amb
+        ObjectType: 4
+        guid: 245de8cfa779a348acd88f89cf0b31c5
+      Path: Events\Default Work Unit\amb
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: amb_cave
+      guid: c325f0b36b9723498a136a8e02d57d3a
+      id: 3755979049
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 53af63b8367c504ebe45bcf62260a723
+      - ElementName: amb
+        ObjectType: 4
+        guid: 245de8cfa779a348acd88f89cf0b31c5
+      - ElementName: amb_cave
+        ObjectType: 3
+        guid: c325f0b36b9723498a136a8e02d57d3a
+      Path: Events\Default Work Unit\amb\amb_cave
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: amb_forest_day
+      guid: d32fd67b585afa45b17385bf081ca37c
+      id: 2274730454
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 53af63b8367c504ebe45bcf62260a723
+      - ElementName: amb
+        ObjectType: 4
+        guid: 245de8cfa779a348acd88f89cf0b31c5
+      - ElementName: amb_forest_day
+        ObjectType: 3
+        guid: d32fd67b585afa45b17385bf081ca37c
+      Path: Events\Default Work Unit\amb\amb_forest_day
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: amb_forest_night
+      guid: 3b5112093067804da0bb4eb39659962d
+      id: 1816406506
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 53af63b8367c504ebe45bcf62260a723
+      - ElementName: amb
+        ObjectType: 4
+        guid: 245de8cfa779a348acd88f89cf0b31c5
+      - ElementName: amb_forest_night
+        ObjectType: 3
+        guid: 3b5112093067804da0bb4eb39659962d
+      Path: Events\Default Work Unit\amb\amb_forest_night
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: footsteps_jump
+      guid: 3dc1b8037a417541b665d1e74caa5620
+      id: 3199873489
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 53af63b8367c504ebe45bcf62260a723
+      - ElementName: footsteps_jump
+        ObjectType: 3
+        guid: 3dc1b8037a417541b665d1e74caa5620
+      Path: Events\Default Work Unit\footsteps_jump
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: footsteps_land
+      guid: dcb7f78e35c4844895a8ac37c275db96
+      id: 3261944238
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 53af63b8367c504ebe45bcf62260a723
+      - ElementName: footsteps_land
+        ObjectType: 3
+        guid: dcb7f78e35c4844895a8ac37c275db96
+      Path: Events\Default Work Unit\footsteps_land
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: footsteps_run
+      guid: d2b45119d826b64489d885b85d37be0c
+      id: 2462760816
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 53af63b8367c504ebe45bcf62260a723
+      - ElementName: footsteps_run
         ObjectType: 3
         guid: d2b45119d826b64489d885b85d37be0c
-      Path: Events\Default Work Unit\foot_player
+      Path: Events\Default Work Unit\footsteps_run
       maxAttenuation: 0
-      maxDuration: 0.56666666
-      minDuration: 0.3
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_fire
+      guid: 43446bfeb72b2d45a19a5deb638c63a7
+      id: 2540328137
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 53af63b8367c504ebe45bcf62260a723
+      - ElementName: sfx_fire
+        ObjectType: 3
+        guid: 43446bfeb72b2d45a19a5deb638c63a7
+      Path: Events\Default Work Unit\sfx_fire
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: test
       guid: 7558ca2873589d4c8d26b9b7506ee1cf
       id: 3157003241
@@ -237,7 +365,7 @@ MonoBehaviour:
     m_lastTime: -8584606818337421625
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000a0000000b0000000c00000085000000860000008700000088000000230100002401000025010000
+  ExpandedWaapiItemIds: 010000000a0000000b0000000c00000085000000860000008700000088000000d7000000d8000000230100002401000025010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

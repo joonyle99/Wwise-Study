@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{953A6E46-7DB0-42DA-AA6E-1DD0A99098FC}">
 					<ObjectInclusionList>
-						<ObjectRef Name="foot_player" ID="{1951B4D2-26D8-44B6-89D8-85B85D37BE0C}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footsteps_run" ID="{1951B4D2-26D8-44B6-89D8-85B85D37BE0C}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="test" ID="{28CA5875-5873-4C9D-8D26-B9B7506EE1CF}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

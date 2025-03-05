@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef030e89bac263a44bc0d197c950ef82, type: 3}
   m_Name: 1951B4D2-26D8-44B6-89D8-85B85D37BE0C
   m_EditorClassIdentifier: 
-  objectName: foot_player
-  id: 1894362767
+  objectName: footsteps_run
+  id: 2462760816
   guid: 1951B4D2-26D8-44B6-89D8-85B85D37BE0C
   IsInUserDefinedSoundBank: 1
   IsAutoBankLoaded: 0
