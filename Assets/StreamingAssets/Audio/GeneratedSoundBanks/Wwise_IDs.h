@@ -13,7 +13,13 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID FOOT_PLAYER = 1894362767U;
+        static const AkUniqueID AMB_CAVE = 3755979049U;
+        static const AkUniqueID AMB_FOREST_DAY = 2274730454U;
+        static const AkUniqueID AMB_FOREST_NIGHT = 1816406506U;
+        static const AkUniqueID FOOTSTEPS_JUMP = 3199873489U;
+        static const AkUniqueID FOOTSTEPS_LAND = 3261944238U;
+        static const AkUniqueID FOOTSTEPS_RUN = 2462760816U;
+        static const AkUniqueID SFX_FIRE = 2540328137U;
         static const AkUniqueID TEST = 3157003241U;
     } // namespace EVENTS
 

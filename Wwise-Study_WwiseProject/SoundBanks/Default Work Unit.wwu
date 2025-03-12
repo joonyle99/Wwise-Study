@@ -5,8 +5,16 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{953A6E46-7DB0-42DA-AA6E-1DD0A99098FC}">
 					<ObjectInclusionList>
+						<ObjectRef Name="footsteps_jump" ID="{03B8C13D-417A-4175-B665-D1E74CAA5620}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="footsteps_run" ID="{1951B4D2-26D8-44B6-89D8-85B85D37BE0C}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_fire" ID="{FE6B4443-2BB7-452D-A19A-5DEB638C63A7}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="amb_forest_day" ID="{7BD62FD3-5A58-45FA-B173-85BF081CA37C}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footsteps_land" ID="{8EF7B7DC-C435-4884-95A8-AC37C275DB96}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="amb" ID="{CFE85D24-79A7-48A3-ACD8-8F89CF0B31C5}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="amb_cave" ID="{B3F025C3-976B-4923-8A13-6A8E02D57D3A}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="test" ID="{28CA5875-5873-4C9D-8D26-B9B7506EE1CF}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="amb_forest_night" ID="{0912513B-6730-4D80-A0BB-4EB39659962D}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

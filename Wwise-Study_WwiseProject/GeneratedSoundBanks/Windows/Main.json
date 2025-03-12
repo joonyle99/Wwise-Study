@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{953A6E46-7DB0-42DA-AA6E-1DD0A99098FC}",
     "Language": "SFX",
-    "Hash": "{FEA6CB08-0CC3-347E-EDA2-E79D199C4A9D}",
+    "Hash": "{C30981C1-CCB4-E843-5B75-0487E74102CE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "SFX_footsteps_grass_1.wav",
       "CachePath": "EB/{EB1567BB-B1CC-94C2-994E-D802B4E8A596}.wem"
+     },
+     {
+      "Id": "249794568",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_cave (1).wav",
+      "CachePath": "7D/{7D4A2321-D160-CF29-BC67-7CDB9CE25884}.wem"
      },
      {
       "Id": "284126865",
@@ -72,6 +80,70 @@
       "CachePath": "B6/{B64D0C54-AF0F-154B-610E-0329A3064F0A}.wem"
      },
      {
+      "Id": "598994059",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_fire_loop.wav",
+      "CachePath": "8A/{8A63D6AC-8E06-5BF2-C755-B6CE9582201A}.wem"
+     },
+     {
+      "Id": "617148264",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_footsteps_jump_2.wav",
+      "CachePath": "AA/{AA7F8E9E-73EB-06BE-D090-EF1AB64138A5}.wem"
+     },
+     {
+      "Id": "662099118",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_forest_night (1).wav",
+      "CachePath": "61/{61292856-CF70-7075-55BC-AD554B7E8CAD}.wem"
+     },
+     {
+      "Id": "720040115",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_footsteps_jump_3.wav",
+      "CachePath": "7E/{7E31E1D6-B979-66A8-D0B4-587A113CA4A6}.wem"
+     },
+     {
+      "Id": "766852645",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_footsteps_jump_1.wav",
+      "CachePath": "6D/{6D3E1A3C-E7F2-D2DF-3BCC-19FCF5C9C411}.wem"
+     },
+     {
+      "Id": "783091312",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_footsteps_land_grass.wav",
+      "CachePath": "1E/{1E88D46B-BAC9-F8EA-4C51-C563DDEE9D87}.wem"
+     },
+     {
+      "Id": "828160666",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_forest_day (1).wav",
+      "CachePath": "AC/{AC17C5E1-AABA-6281-BC3A-390C4B1EFD30}.wem"
+     },
+     {
+      "Id": "909659576",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_footsteps_land_concrete.wav",
+      "CachePath": "76/{76C8D4B3-930B-ABD1-6C07-1EBF448B4FCD}.wem"
+     },
+     {
       "Id": "977217431",
       "Language": "SFX",
       "Streaming": "false",
@@ -90,9 +162,106 @@
     ],
     "Events": [
      {
-      "Id": "1894362767",
-      "Name": "foot_player",
-      "ObjectPath": "\\Events\\Default Work Unit\\foot_player",
+      "Id": "3755979049",
+      "Name": "amb_cave",
+      "ObjectPath": "\\Events\\Default Work Unit\\amb\\amb_cave",
+      "GUID": "{B3F025C3-976B-4923-8A13-6A8E02D57D3A}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "249794568"
+       }
+      ]
+     },
+     {
+      "Id": "2274730454",
+      "Name": "amb_forest_day",
+      "ObjectPath": "\\Events\\Default Work Unit\\amb\\amb_forest_day",
+      "GUID": "{7BD62FD3-5A58-45FA-B173-85BF081CA37C}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "828160666"
+       }
+      ]
+     },
+     {
+      "Id": "1816406506",
+      "Name": "amb_forest_night",
+      "ObjectPath": "\\Events\\Default Work Unit\\amb\\amb_forest_night",
+      "GUID": "{0912513B-6730-4D80-A0BB-4EB39659962D}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "662099118"
+       }
+      ]
+     },
+     {
+      "Id": "3199873489",
+      "Name": "footsteps_jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\footsteps_jump",
+      "GUID": "{03B8C13D-417A-4175-B665-D1E74CAA5620}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6333333",
+      "DurationMax": "0.6333333",
+      "MediaRefs": [
+       {
+        "Id": "617148264"
+       },
+       {
+        "Id": "720040115"
+       },
+       {
+        "Id": "766852645"
+       }
+      ]
+     },
+     {
+      "Id": "3261944238",
+      "Name": "footsteps_land",
+      "ObjectPath": "\\Events\\Default Work Unit\\footsteps_land",
+      "GUID": "{8EF7B7DC-C435-4884-95A8-AC37C275DB96}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.36666667",
+      "DurationMax": "0.4",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1735193030",
+         "Id": "841620460",
+         "GUID": "{29A54324-3EA6-4FC2-ABAE-960CED226247}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "909659576"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1735193030",
+         "Id": "4248645337",
+         "GUID": "{1562FC62-F52C-4CAA-A24A-6E1C6670767D}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "783091312"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2462760816",
+      "Name": "footsteps_run",
+      "ObjectPath": "\\Events\\Default Work Unit\\footsteps_run",
       "GUID": "{1951B4D2-26D8-44B6-89D8-85B85D37BE0C}",
       "DurationType": "OneShot",
       "DurationMin": "0.3",
@@ -146,6 +315,18 @@
       ]
      },
      {
+      "Id": "2540328137",
+      "Name": "sfx_fire",
+      "ObjectPath": "\\Events\\Default Work Unit\\sfx_fire",
+      "GUID": "{FE6B4443-2BB7-452D-A19A-5DEB638C63A7}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "598994059"
+       }
+      ]
+     },
+     {
       "Id": "3157003241",
       "Name": "test",
       "ObjectPath": "\\Events\\Default Work Unit\\test",
@@ -184,6 +365,6 @@
     ]
    }
   ],
-  "FileHash": "{DFFF11A8-9E75-E309-64F0-54CDD1C9D538}"
+  "FileHash": "{15C2DEA8-E524-E918-751C-5EBAD48294E4}"
  }
 }
