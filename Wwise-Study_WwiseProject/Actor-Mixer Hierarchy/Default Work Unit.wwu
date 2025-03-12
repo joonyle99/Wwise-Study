@@ -28,6 +28,9 @@
 				<Folder Name="environment" ID="{1416324F-945E-4439-91B7-9A9B03800F20}" ShortID="239097750">
 					<ChildrenList>
 						<Sound Name="amb_forest_day" ID="{CD210190-91C6-4757-A607-2850228512A7}" ShortID="421519956">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -36,8 +39,30 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A2E80D2C-43C5-4DB3-A50A-5E6D47D708A0}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_forest_day" ID="{70DD1030-BF4E-4E1C-A0AA-BBD3AD0F4226}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_forest_day.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="325946862"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="AMB_forest_day (1)" ID="{4D915BF9-D543-4425-89D7-3DC31DEFEECB}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_forest_day (1).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="828160666"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_forest_day (1)" ID="{4D915BF9-D543-4425-89D7-3DC31DEFEECB}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 						<Sound Name="amb_forest_night" ID="{7359E9DC-C401-42BD-ACB7-89CAB0D473E5}" ShortID="191720020">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -46,8 +71,30 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A2E80D2C-43C5-4DB3-A50A-5E6D47D708A0}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_forest_night" ID="{088AF848-DF3E-4B72-96E7-7F63FA28ECAA}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_forest_night.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="110001035"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="AMB_forest_night (1)" ID="{6EA31FA5-6066-4E49-8704-62DD8F091816}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_forest_night (1).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="662099118"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_forest_night (1)" ID="{6EA31FA5-6066-4E49-8704-62DD8F091816}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 						<Sound Name="amb_cave" ID="{E5854945-5124-4FF3-906E-C41B726D87B9}" ShortID="100759324">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -56,6 +103,28 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A2E80D2C-43C5-4DB3-A50A-5E6D47D708A0}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_cave" ID="{483C8370-95A6-4F45-AA5E-CA6E17B92E5E}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>AMB_cave.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="690284500"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="AMB_cave (1)" ID="{1EEDE2B2-5A2B-4CFD-B58D-0C145063FD2A}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_cave (1).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="249794568"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_cave (1)" ID="{1EEDE2B2-5A2B-4CFD-B58D-0C145063FD2A}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</Folder>
@@ -308,6 +377,9 @@
 					</GroupingInfo>
 				</SwitchContainer>
 				<Sound Name="SFX_fire_loop" ID="{72BC1013-4067-4D10-A5E2-1655FFC293DD}" ShortID="769274402">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
