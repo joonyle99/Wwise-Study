@@ -29,12 +29,16 @@
 					<ChildrenList>
 						<Sound Name="amb_forest_day" ID="{CD210190-91C6-4757-A607-2850228512A7}" ShortID="421519956">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Attenuation" ID="{A8CF1736-B830-46B3-86BA-B4DBBA3310C9}" WorkUnitID="{64A77CDB-B81D-445F-A062-36E1268138E5}"/>
+									<ObjectRef Name="Attenuation_forest" ID="{A8CF1736-B830-46B3-86BA-B4DBBA3310C9}" WorkUnitID="{64A77CDB-B81D-445F-A062-36E1268138E5}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -59,18 +63,20 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{B2361C3D-60BB-4E48-91AB-CD9C227BD3A8}"/>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="AMB_forest_day (1)" ID="{4D915BF9-D543-4425-89D7-3DC31DEFEECB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="amb_forest_night" ID="{7359E9DC-C401-42BD-ACB7-89CAB0D473E5}" ShortID="191720020">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Attenuation" ID="{A8CF1736-B830-46B3-86BA-B4DBBA3310C9}" WorkUnitID="{64A77CDB-B81D-445F-A062-36E1268138E5}"/>
+									<ObjectRef Name="Attenuation_forest" ID="{A8CF1736-B830-46B3-86BA-B4DBBA3310C9}" WorkUnitID="{64A77CDB-B81D-445F-A062-36E1268138E5}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -101,12 +107,11 @@
 						</Sound>
 						<Sound Name="amb_cave" ID="{E5854945-5124-4FF3-906E-C41B726D87B9}" ShortID="100759324">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Attenuation" ID="{A8CF1736-B830-46B3-86BA-B4DBBA3310C9}" WorkUnitID="{64A77CDB-B81D-445F-A062-36E1268138E5}"/>
+									<ObjectRef Name="Attenuation_cave" ID="{C4FBCE4C-0DDF-40E9-8E1D-D7574F046A1F}" WorkUnitID="{64A77CDB-B81D-445F-A062-36E1268138E5}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -390,10 +395,17 @@
 				</SwitchContainer>
 				<Sound Name="SFX_fire_loop" ID="{72BC1013-4067-4D10-A5E2-1655FFC293DD}" ShortID="769274402">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Attenuation_fire" ID="{0A06FB32-33A6-4D0E-87AA-4E5878EE4CC2}" WorkUnitID="{64A77CDB-B81D-445F-A062-36E1268138E5}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
 						</Reference>

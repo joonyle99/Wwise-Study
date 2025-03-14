@@ -130,9 +130,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: c325f0b36b9723498a136a8e02d57d3a
       Path: Events\Default Work Unit\amb\amb_cave
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
     - name: amb_forest_day
       guid: d32fd67b585afa45b17385bf081ca37c
       id: 2274730454
@@ -150,9 +150,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: d32fd67b585afa45b17385bf081ca37c
       Path: Events\Default Work Unit\amb\amb_forest_day
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
     - name: amb_forest_night
       guid: 3b5112093067804da0bb4eb39659962d
       id: 1816406506
@@ -170,9 +170,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3b5112093067804da0bb4eb39659962d
       Path: Events\Default Work Unit\amb\amb_forest_night
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
     - name: footsteps_jump
       guid: 3dc1b8037a417541b665d1e74caa5620
       id: 3199873489
@@ -188,8 +188,8 @@ MonoBehaviour:
         guid: 3dc1b8037a417541b665d1e74caa5620
       Path: Events\Default Work Unit\footsteps_jump
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.6333333
+      minDuration: 0.6333333
     - name: footsteps_land
       guid: dcb7f78e35c4844895a8ac37c275db96
       id: 3261944238
@@ -205,8 +205,8 @@ MonoBehaviour:
         guid: dcb7f78e35c4844895a8ac37c275db96
       Path: Events\Default Work Unit\footsteps_land
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.4
+      minDuration: 0.36666667
     - name: footsteps_run
       guid: d2b45119d826b64489d885b85d37be0c
       id: 2462760816
@@ -222,8 +222,8 @@ MonoBehaviour:
         guid: d2b45119d826b64489d885b85d37be0c
       Path: Events\Default Work Unit\footsteps_run
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.56666666
+      minDuration: 0.3
     - name: sfx_fire
       guid: 43446bfeb72b2d45a19a5deb638c63a7
       id: 2540328137
@@ -238,9 +238,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 43446bfeb72b2d45a19a5deb638c63a7
       Path: Events\Default Work Unit\sfx_fire
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 15
+      maxDuration: 0
+      minDuration: 0
     - name: test
       guid: 7558ca2873589d4c8d26b9b7506ee1cf
       id: 3157003241
@@ -256,8 +256,8 @@ MonoBehaviour:
         guid: 7558ca2873589d4c8d26b9b7506ee1cf
       Path: Events\Default Work Unit\test
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.23552084
+      minDuration: 0.23552084
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
