@@ -164,6 +164,11 @@
 						<RandomSequenceContainer Name="grass" ID="{B2F1CCFA-25EA-48C5-B5E5-0146E24DF41E}" ShortID="998311806">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -185,6 +190,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SFX_footsteps_grass_1" ID="{0EF1F448-1A84-45B8-AEFA-4A58EF477549}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0114754098849218"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0178506375987673"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>SFX_footsteps_grass_1.wav</AudioFile>
 											<MediaIDList>
@@ -207,6 +217,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SFX_footsteps_grass_2" ID="{0AEC310C-5B95-4DD9-8CDD-02E0FB0F934B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0136156649700279"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0384790531761659"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>SFX_footsteps_grass_2.wav</AudioFile>
 											<MediaIDList>
@@ -229,6 +244,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SFX_footsteps_grass_3" ID="{FBF3A9BA-6C52-4F47-BBF5-6D4BEC6E99A6}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00828779602799911"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0204007286843055"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>SFX_footsteps_grass_3.wav</AudioFile>
 											<MediaIDList>
@@ -251,6 +271,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SFX_footsteps_grass_4" ID="{D4221666-C172-4DC9-BAFB-FCB4B4DBFD4D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.019353369627494"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0348360653294892"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>SFX_footsteps_grass_4.wav</AudioFile>
 											<MediaIDList>
@@ -267,6 +292,11 @@
 						<RandomSequenceContainer Name="concrete" ID="{2C7BB9BB-46E9-4C53-8688-FDE07A337F4F}" ShortID="477223298">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

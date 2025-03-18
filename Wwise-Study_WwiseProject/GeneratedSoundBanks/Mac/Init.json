@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{89C218AE-9E0B-8562-B379-0ABAC724E516}",
+    "Hash": "{B880F616-906E-FEB8-AF11-00EB76FDE9C4}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -63,9 +63,77 @@
        }
       ]
      }
+    ],
+    "AcousticTextures": [
+     {
+      "Id": "841620460",
+      "Name": "concrete",
+      "ObjectPath": "\\Virtual Acoustics\\Default Work Unit\\concrete",
+      "GUID": "{9572969D-933A-46AF-B054-EA0F52496E82}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
+      "Id": "4248645337",
+      "Name": "grass",
+      "ObjectPath": "\\Virtual Acoustics\\Default Work Unit\\grass",
+      "GUID": "{D148A412-D5C4-4403-B232-D9E159871D6B}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{9A81F67B-8F48-8C13-58AC-F843B644BC2A}"
+  "FileHash": "{129C5090-6AAA-7D7C-9DFA-AC05BB2CADE7}"
  }
 }

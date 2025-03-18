@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3FAE40DA-5A35-4693-A890-CF5E9103ECF9}" SchemaVersion="123">
 	<VirtualAcoustics>
-		<WorkUnit Name="Default Work Unit" ID="{3FAE40DA-5A35-4693-A890-CF5E9103ECF9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3FAE40DA-5A35-4693-A890-CF5E9103ECF9}" PersistMode="Standalone">
+			<ChildrenList>
+				<AcousticTexture Name="grass" ID="{D148A412-D5C4-4403-B232-D9E159871D6B}"/>
+				<AcousticTexture Name="concrete" ID="{9572969D-933A-46AF-B054-EA0F52496E82}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</VirtualAcoustics>
 </WwiseDocument>
