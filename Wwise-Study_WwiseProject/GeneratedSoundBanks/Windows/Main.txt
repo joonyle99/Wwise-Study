@@ -16,22 +16,22 @@ Switch	ID	Name	Switch Group			Notes
 	4248645337	grass	Meterial			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	205397140	grass_2	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\EB\{EB562DC1-97D9-22C2-0F21-99804BAFEC17}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\grass\grass_2		38002
-	227114721	grass_1	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\B4\{B4924CB7-F4D2-F1E6-6B97-963E0888756E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\grass\grass_1		43182
-	249794568	amb_cave	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\7D\{7D4A2321-D160-CF29-BC67-7CDB9CE25884}.wem		\Actor-Mixer Hierarchy\Default Work Unit\environment\amb_cave		4221124
-	284126865	concrete_2	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\31\{31B90663-C990-CCCF-C9D7-EF1881F7E14B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\concrete\concrete_2		41696
-	422809127	test	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\4E\{4E3A5605-6B97-C379-4B26-82670D43484A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\test		22706
-	453948908	grass_3	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\4B\{4B131BFA-999D-9E85-7D86-13AD672C3C4E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\grass\grass_3		42938
-	579749320	concrete_3	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\7A\{7AB1D9B1-B343-BBB3-6B94-71A987962E44}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\concrete\concrete_3		35296
-	590491571	concrete_1	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\B6\{B64D0C54-AF0F-154B-610E-0329A3064F0A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\concrete\concrete_1		41696
-	598994059	SFX_fire_loop	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\8A\{8A63D6AC-8E06-5BF2-C755-B6CE9582201A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_fire_loop		6502680
-	617148264	jump_2	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\AA\{AA7F8E9E-73EB-06BE-D090-EF1AB64138A5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_jump\jump_2		60896
-	662099118	amb_forest_night	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\61\{61292856-CF70-7075-55BC-AD554B7E8CAD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\environment\amb_forest_night		2982568
-	720040115	jump_3	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\7E\{7E31E1D6-B979-66A8-D0B4-587A113CA4A6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_jump\jump_3		60896
-	766852645	jump_1	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\6D\{6D3E1A3C-E7F2-D2DF-3BCC-19FCF5C9C411}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_jump\jump_1		60896
-	783091312	land_grass	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\1E\{1E88D46B-BAC9-F8EA-4C51-C563DDEE9D87}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_land\land_grass		35296
-	828160666	amb_forest_day	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\AC\{AC17C5E1-AABA-6281-BC3A-390C4B1EFD30}.wem		\Actor-Mixer Hierarchy\Default Work Unit\environment\amb_forest_day		5541748
-	909659576	land_concrete	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\76\{76C8D4B3-930B-ABD1-6C07-1EBF448B4FCD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_land\land_concrete		38496
-	977217431	grass_4	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\9D\{9D32C1FC-282E-8AA8-8F96-35ADE47C9B98}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\grass\grass_4		51152
-	1019952929	concrete_4	C:\Users\KSY\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\93\{9329A0C0-1D63-610B-1905-8094B15CB185}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\concrete\concrete_4		28896
+	205397140	grass_2	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\05\{05203F46-F39D-BFA0-902F-33B87BA62B5C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\grass\grass_2		38002
+	227114721	grass_1	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\D8\{D8A0E446-F925-11E8-B0C4-1C370C0F61E9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\grass\grass_1		43182
+	249794568	amb_cave	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\7D\{7D4A2321-D160-CF29-BC67-7CDB9CE25884}.wem		\Actor-Mixer Hierarchy\Default Work Unit\environment\amb_cave		4221124
+	284126865	concrete_2	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\31\{31B90663-C990-CCCF-C9D7-EF1881F7E14B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\concrete\concrete_2		41696
+	422809127	test	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\4E\{4E3A5605-6B97-C379-4B26-82670D43484A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\test		22706
+	453948908	grass_3	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\9D\{9DB7BA4F-4AB4-FFC5-9E69-265E82440AA6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\grass\grass_3		42938
+	579749320	concrete_3	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\7A\{7AB1D9B1-B343-BBB3-6B94-71A987962E44}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\concrete\concrete_3		35296
+	590491571	concrete_1	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\B6\{B64D0C54-AF0F-154B-610E-0329A3064F0A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\concrete\concrete_1		41696
+	598994059	SFX_fire_loop	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\8A\{8A63D6AC-8E06-5BF2-C755-B6CE9582201A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_fire_loop		6502680
+	617148264	jump_2	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\AA\{AA7F8E9E-73EB-06BE-D090-EF1AB64138A5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_jump\jump_2		60896
+	662099118	amb_forest_night	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\61\{61292856-CF70-7075-55BC-AD554B7E8CAD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\environment\amb_forest_night		2982568
+	720040115	jump_3	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\7E\{7E31E1D6-B979-66A8-D0B4-587A113CA4A6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_jump\jump_3		60896
+	766852645	jump_1	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\6D\{6D3E1A3C-E7F2-D2DF-3BCC-19FCF5C9C411}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_jump\jump_1		60896
+	783091312	land_grass	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\1E\{1E88D46B-BAC9-F8EA-4C51-C563DDEE9D87}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_land\land_grass		35296
+	828160666	amb_forest_day	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\AC\{AC17C5E1-AABA-6281-BC3A-390C4B1EFD30}.wem		\Actor-Mixer Hierarchy\Default Work Unit\environment\amb_forest_day		5541748
+	909659576	land_concrete	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\76\{76C8D4B3-930B-ABD1-6C07-1EBF448B4FCD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_land\land_concrete		38496
+	977217431	grass_4	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\FD\{FDA4B3F6-25FD-AC98-9E54-89D16808987D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\grass\grass_4		51152
+	1019952929	concrete_4	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\93\{9329A0C0-1D63-610B-1905-8094B15CB185}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\concrete\concrete_4		28896
 

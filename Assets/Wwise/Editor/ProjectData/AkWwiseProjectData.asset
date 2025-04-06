@@ -24,8 +24,36 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: da40ae3f355a9346a890cf5e9103ecf9
     GuidInternal: 
-    m_lastTime: -8584606818337411652
-    List: []
+    m_lastTime: -8584582581056204548
+    List:
+    - name: concrete
+      guid: 9d9672953a93af46b054ea0f52496e82
+      id: 841620460
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: da40ae3f355a9346a890cf5e9103ecf9
+      - ElementName: concrete
+        ObjectType: 15
+        guid: 9d9672953a93af46b054ea0f52496e82
+      Path: Virtual Acoustics\Default Work Unit\concrete
+    - name: grass
+      guid: 12a448d1c4d50344b232d9e159871d6b
+      id: 4248645337
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: da40ae3f355a9346a890cf5e9103ecf9
+      - ElementName: grass
+        ObjectType: 15
+        guid: 12a448d1c4d50344b232d9e159871d6b
+      Path: Virtual Acoustics\Default Work Unit\grass
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     PathAndIcons:
@@ -38,7 +66,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2c0de8a2c543b34da50a5e6d47d708a0
     GuidInternal: 
-    m_lastTime: -8584606818337471492
+    m_lastTime: -8584582581059576555
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +94,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6f44c802318a094ebdf3c00776922229
     GuidInternal: 
-    m_lastTime: -8584597315047383386
+    m_lastTime: -8584582581056230580
     List:
     - name: Main
       guid: 466e3a95b07dda42aa6e1dd0a99098fc
@@ -94,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 53af63b8367c504ebe45bcf62260a723
     GuidInternal: 
-    m_lastTime: -8584597315051927221
+    m_lastTime: -8584582581062548597
     List:
     - name: amb
       guid: 245de8cfa779a348acd88f89cf0b31c5
@@ -222,7 +250,7 @@ MonoBehaviour:
         guid: d2b45119d826b64489d885b85d37be0c
       Path: Events\Default Work Unit\footsteps_run
       maxAttenuation: 0
-      maxDuration: 0.56666666
+      maxDuration: 0.5318306
       minDuration: 0.3
     - name: sfx_fire
       guid: 43446bfeb72b2d45a19a5deb638c63a7
@@ -270,7 +298,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 0a9482ad85170c4b93f221f790e82c8f
     GuidInternal: 
-    m_lastTime: -8584606818337481369
+    m_lastTime: -8584582581062548597
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -284,7 +312,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: e9277f561d5e6040bb35e8f41e0df353
     GuidInternal: 
-    m_lastTime: -8584606818337431580
+    m_lastTime: -8584582581056217303
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -298,7 +326,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: b1eafb9d6540d746946a6320999b0324
     GuidInternal: 
-    m_lastTime: -8584606697386175200
+    m_lastTime: -8584582581056204548
     List:
     - name: Meterial
       guid: d3ac6145f84a9f47bc16726336c4b4bc
@@ -362,10 +390,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: c17f72f618b37a4dbebf288851a969ef
     GuidInternal: 
-    m_lastTime: -8584606818337421625
+    m_lastTime: -8584582581056204548
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000080000000a0000000b0000000c00000085000000860000008700000088000000b0000000b1000000b2000000b7000000b8000000b9000000d7000000d8000000230100002401000025010000
+  ExpandedWaapiItemIds: 01000000050000000600000007000000080000000a0000000b0000000c00000012000000130000001400000085000000860000008700000088000000b0000000b1000000b2000000b7000000b8000000b9000000d7000000d8000000230100002401000025010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

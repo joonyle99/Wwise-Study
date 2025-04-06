@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{953A6E46-7DB0-42DA-AA6E-1DD0A99098FC}",
     "Language": "SFX",
-    "Hash": "{6A6DD7D2-670B-91F3-0928-A5EFA991B514}",
+    "Hash": "{1D637D15-696B-2874-806D-529D68EF494D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_footsteps_grass_2.wav",
-      "CachePath": "EB/{EB562DC1-97D9-22C2-0F21-99804BAFEC17}.wem"
+      "CachePath": "05/{05203F46-F39D-BFA0-902F-33B87BA62B5C}.wem"
      },
      {
       "Id": "227114721",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_footsteps_grass_1.wav",
-      "CachePath": "B4/{B4924CB7-F4D2-F1E6-6B97-963E0888756E}.wem"
+      "CachePath": "D8/{D8A0E446-F925-11E8-B0C4-1C370C0F61E9}.wem"
      },
      {
       "Id": "249794568",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_footsteps_grass_3.wav",
-      "CachePath": "4B/{4B131BFA-999D-9E85-7D86-13AD672C3C4E}.wem"
+      "CachePath": "9D/{9DB7BA4F-4AB4-FFC5-9E69-265E82440AA6}.wem"
      },
      {
       "Id": "579749320",
@@ -149,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_footsteps_grass_4.wav",
-      "CachePath": "9D/{9D32C1FC-282E-8AA8-8F96-35ADE47C9B98}.wem"
+      "CachePath": "FD/{FDA4B3F6-25FD-AC98-9E54-89D16808987D}.wem"
      },
      {
       "Id": "1019952929",
@@ -366,6 +366,6 @@
     ]
    }
   ],
-  "FileHash": "{A8A1FEE1-0247-ED73-DC1C-803AC189F04B}"
+  "FileHash": "{AC9F6DA7-78B1-78CE-FA1C-DAE855421A34}"
  }
 }
