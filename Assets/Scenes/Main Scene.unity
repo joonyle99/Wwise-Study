@@ -18625,7 +18625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35dd440eee8be3849b218fb640436b49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultSurfaceTag: Concrete
+  defaultSurfaceTag: cconcrete
   grassSwitch:
     idInternal: 0
     valueGuidInternal: 
@@ -20770,7 +20770,7 @@ PrefabInstance:
     - target: {fileID: 4401863854545358135, guid: 6cfaadcb953af1c448a1b82b94f47442,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -40.39164
+      value: -38.086685
       objectReference: {fileID: 0}
     - target: {fileID: 4401863854545358135, guid: 6cfaadcb953af1c448a1b82b94f47442,
         type: 3}
@@ -21180,6 +21180,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Environment_Middle_Crypt
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162504458256914561, guid: cf105c35f94aaa9439582c5463ed295f,
+        type: 3}
+      propertyPath: m_TagString
+      value: concrete
       objectReference: {fileID: 0}
     - target: {fileID: 9153203794645512267, guid: cf105c35f94aaa9439582c5463ed295f,
         type: 3}
@@ -22303,6 +22308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Environment_Middle_Exterior
       objectReference: {fileID: 0}
+    - target: {fileID: 6331163739196897355, guid: 64fb001c79f9ab640849965312f69230,
+        type: 3}
+      propertyPath: m_TagString
+      value: grass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22524,7 +22534,7 @@ PrefabInstance:
     - target: {fileID: 6372339727176229870, guid: 7b1d9d3c1cec0f5419bd2b1ea4481e3c,
         type: 3}
       propertyPath: m_Spline.m_ControlPoints.Array.data[1].m_CornerMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6372339727176229871, guid: 7b1d9d3c1cec0f5419bd2b1ea4481e3c,
         type: 3}

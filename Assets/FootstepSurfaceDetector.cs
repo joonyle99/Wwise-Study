@@ -9,24 +9,26 @@ public class FootstepSurfaceDetector : MonoBehaviour
     public AK.Wwise.Event footstepEvent;  // 실행할 Wwise 이벤트
 
     // 애니메이션 이벤트에서 이 메서드를 호출
-    public void PlayFootstep()
+    public void PlayFootstepSound()
     {
-        PlayFootstepSound();
-    }
-
-    private void PlayFootstepSound()
-    {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.5f);
-
-        // 씬에 레이 표시 (디버깅용)
-        Debug.DrawRay(transform.position, Vector2.down * 1.5f, Color.red, 1f);
+        RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, Vector2.down, 1.5f);
+        //Debug.DrawRay(transform.position, Vector2.down * 1.5f, Color.red, 1f);
 
         string surfaceTag = defaultSurfaceTag;
 
-        if (hit.collider != null)
+        if (hits.Length > 0)
         {
-            Debug.Log("Raycast hit: " + hit.collider.name + ", tag: " + hit.collider.tag);
-            surfaceTag = hit.collider.tag.ToLower();  // 태그를 소문자로 강제 변환
+            foreach (var hit in hits)
+            {
+                //Debug.Log("Raycast hit: " + hit.collider.name + ", tag: " + hit.collider.tag);
+                string tag = hit.collider.tag.ToLower();
+
+                if (tag == "grass" || tag == "concrete")
+                {
+                    surfaceTag = tag;
+                    break; // 우선순위: 가장 먼저 발견된 유효 태그 사용
+                }
+            }
         }
         else
         {
@@ -37,14 +39,16 @@ public class FootstepSurfaceDetector : MonoBehaviour
         switch (surfaceTag)
         {
             case "grass":
+                Debug.Log("grass");
                 grassSwitch.SetValue(gameObject);
                 break;
             case "concrete":
+                Debug.Log("concrete");
                 concreteSwitch.SetValue(gameObject);
                 break;
             default:
                 Debug.Log("Unknown surface tag: " + surfaceTag + " - using default");
-                grassSwitch.SetValue(gameObject);  // 디폴트 스위치 (grass)
+                grassSwitch.SetValue(gameObject);
                 break;
         }
 

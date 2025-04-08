@@ -14069,7 +14069,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.25
-    functionName: PlayFootstep
+    functionName: PlayFootstepSound
     data: 
     objectReferenceParameter: {fileID: 2638879086307866348, guid: 8536eef0a5c281642b45c61fc2f8e7e6,
       type: 3}
@@ -14077,7 +14077,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.75
-    functionName: PlayFootstep
+    functionName: PlayFootstepSound
     data: 
     objectReferenceParameter: {fileID: 2638879086307866348, guid: 8536eef0a5c281642b45c61fc2f8e7e6,
       type: 3}
