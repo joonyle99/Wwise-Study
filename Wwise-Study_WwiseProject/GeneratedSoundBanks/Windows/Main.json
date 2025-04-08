@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{953A6E46-7DB0-42DA-AA6E-1DD0A99098FC}",
     "Language": "SFX",
-    "Hash": "{A77A1604-781F-F6BA-26BC-3E473CAD89D6}",
+    "Hash": "{0786F67A-39AB-EF43-D793-1E7742E0A46C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -120,28 +120,12 @@
       "CachePath": "6D/{6D3E1A3C-E7F2-D2DF-3BCC-19FCF5C9C411}.wem"
      },
      {
-      "Id": "783091312",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_footsteps_land_grass.wav",
-      "CachePath": "1E/{1E88D46B-BAC9-F8EA-4C51-C563DDEE9D87}.wem"
-     },
-     {
       "Id": "828160666",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "AMB_forest_day (1).wav",
       "CachePath": "AC/{AC17C5E1-AABA-6281-BC3A-390C4B1EFD30}.wem"
-     },
-     {
-      "Id": "909659576",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_footsteps_land_concrete.wav",
-      "CachePath": "76/{76C8D4B3-930B-ABD1-6C07-1EBF448B4FCD}.wem"
      },
      {
       "Id": "977217431",
@@ -219,7 +203,7 @@
       "GUID": "{03B8C13D-417A-4175-B665-D1E74CAA5620}",
       "DurationType": "OneShot",
       "DurationMin": "0.6333333",
-      "DurationMax": "0.6333333",
+      "DurationMax": "0.75316447",
       "MediaRefs": [
        {
         "Id": "617148264"
@@ -238,37 +222,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\footsteps_land",
       "GUID": "{8EF7B7DC-C435-4884-95A8-AC37C275DB96}",
       "DurationType": "OneShot",
-      "DurationMin": "0.36666667",
-      "DurationMax": "0.4",
-      "SwitchContainers": [
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "1735193030",
-         "Id": "841620460",
-         "GUID": "{29A54324-3EA6-4FC2-ABAE-960CED226247}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "909659576"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "1735193030",
-         "Id": "4248645337",
-         "GUID": "{1562FC62-F52C-4CAA-A24A-6E1C6670767D}",
-         "Default": "true"
-        },
-        "MediaRefs": [
-         {
-          "Id": "783091312"
-         }
-        ]
-       }
-      ]
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "2462760816",
@@ -409,6 +364,6 @@
     ]
    }
   ],
-  "FileHash": "{0EA8212D-1C67-8669-02CA-41295F61FBF6}"
+  "FileHash": "{799A98AB-239C-0F4F-E4A3-DB0E63C6793A}"
  }
 }

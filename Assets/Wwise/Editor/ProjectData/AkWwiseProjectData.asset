@@ -233,7 +233,7 @@ MonoBehaviour:
         guid: 3dc1b8037a417541b665d1e74caa5620
       Path: Events\Default Work Unit\footsteps_jump
       maxAttenuation: 0
-      maxDuration: 0.6333333
+      maxDuration: 0.75316447
       minDuration: 0.6333333
     - name: footsteps_land
       guid: dcb7f78e35c4844895a8ac37c275db96
@@ -250,8 +250,8 @@ MonoBehaviour:
         guid: dcb7f78e35c4844895a8ac37c275db96
       Path: Events\Default Work Unit\footsteps_land
       maxAttenuation: 0
-      maxDuration: 0.4
-      minDuration: 0.36666667
+      maxDuration: 0
+      minDuration: 0
     - name: footsteps_run
       guid: d2b45119d826b64489d885b85d37be0c
       id: 2462760816

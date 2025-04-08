@@ -108,6 +108,11 @@
 						<Sound Name="amb_cave" ID="{E5854945-5124-4FF3-906E-C41B726D87B9}" ShortID="100759324">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -151,6 +156,19 @@
 					</ChildrenList>
 				</Folder>
 				<SwitchContainer Name="footsteps_run" ID="{B8D1C7ED-268B-4A4E-B111-1C09B8008E54}" ShortID="269564588">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -482,11 +500,6 @@
 								<Value>-29</Value>
 							</ValueList>
 						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>6</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -516,6 +529,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<SwitchContainer Name="footsteps_land" ID="{72B6017F-FB32-4535-AB5F-F14FE449A28D}" ShortID="739169018">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -602,6 +622,14 @@
 					</GroupingInfo>
 				</SwitchContainer>
 				<RandomSequenceContainer Name="footsteps_jump" ID="{B8A6F9C4-90D1-43C5-B13A-6A97B673D39B}" ShortID="869427548">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -612,6 +640,16 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="jump_1" ID="{FD9754E4-7742-4DAF-B685-B60861900B66}" ShortID="503643342">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-300</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -634,6 +672,11 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="jump_2" ID="{AF651243-BED8-486C-8A86-FA16EA25C6F2}" ShortID="6636054">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -656,6 +699,11 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="jump_3" ID="{B76B8785-CAD6-4F90-8142-7F4625F5E71B}" ShortID="375820798">
+							<PropertyList>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
