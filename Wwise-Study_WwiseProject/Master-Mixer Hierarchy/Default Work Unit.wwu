@@ -9,6 +9,25 @@
 							<ObjectRef Name="System" ID="{8290D49A-1A3C-496D-ACCE-7C996CAC2A47}" WorkUnitID="{6F9630DB-FAD7-47E3-B844-019562A82AFC}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="cave_reverb" ID="{8CBCF87D-350C-48F4-8EC6-8E97977537C6}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{30D877DB-E4DB-4B84-95F7-723BD8AFA947}" ShortID="3039856">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<ObjectRef Name="Big_Garage1" ID="{172402A8-22F4-40FC-BE1D-5269594CB633}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

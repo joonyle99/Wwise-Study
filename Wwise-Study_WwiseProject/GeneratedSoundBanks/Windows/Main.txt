@@ -15,10 +15,19 @@ Switch	ID	Name	Switch Group			Notes
 	841620460	concrete	Meterial			
 	4248645337	grass	Meterial			
 
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3177428469	cave_reverb			\Default Work Unit\Master Audio Bus\cave_reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3546444380	Big_Garage1	Wwise Matrix Reverb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	205397140	grass_2	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\05\{05203F46-F39D-BFA0-902F-33B87BA62B5C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\grass\grass_2		38002
 	227114721	grass_1	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\D8\{D8A0E446-F925-11E8-B0C4-1C370C0F61E9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\grass\grass_1		43182
-	249794568	amb_cave	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\7D\{7D4A2321-D160-CF29-BC67-7CDB9CE25884}.wem		\Actor-Mixer Hierarchy\Default Work Unit\environment\amb_cave		4221124
+	249794568	amb_cave	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\D4\{D4D6911D-FA6B-7531-E573-2EF1408BA783}.wem		\Actor-Mixer Hierarchy\Default Work Unit\environment\amb_cave		4221124
 	284126865	concrete_2	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\31\{31B90663-C990-CCCF-C9D7-EF1881F7E14B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\concrete\concrete_2		41696
 	422809127	test	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\4E\{4E3A5605-6B97-C379-4B26-82670D43484A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\test		22706
 	453948908	grass_3	C:\Users\KCW\Documents\GitHub\Wwise-Study\Wwise-Study_WwiseProject\.cache\9D\{9DB7BA4F-4AB4-FFC5-9E69-265E82440AA6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\footsteps_run\grass\grass_3		42938

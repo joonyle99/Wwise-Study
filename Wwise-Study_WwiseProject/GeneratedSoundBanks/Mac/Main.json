@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{953A6E46-7DB0-42DA-AA6E-1DD0A99098FC}",
     "Language": "SFX",
-    "Hash": "{1D637D15-696B-2874-806D-529D68EF494D}",
+    "Hash": "{A77A1604-781F-F6BA-26BC-3E473CAD89D6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "AMB_cave (1).wav",
-      "CachePath": "7D/{7D4A2321-D160-CF29-BC67-7CDB9CE25884}.wem"
+      "CachePath": "D4/{D4D6911D-FA6B-7531-E573-2EF1408BA783}.wem"
      },
      {
       "Id": "284126865",
@@ -160,6 +160,18 @@
       "CachePath": "93/{9329A0C0-1D63-610B-1905-8094B15CB185}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3546444380",
+       "Name": "Big_Garage1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Big_Garage1",
+       "GUID": "{172402A8-22F4-40FC-BE1D-5269594CB633}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "3755979049",
@@ -325,6 +337,14 @@
        {
         "Id": "598994059"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3177428469",
+        "Name": "cave_reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\cave_reverb",
+        "GUID": "{8CBCF87D-350C-48F4-8EC6-8E97977537C6}"
+       }
       ]
      },
      {
@@ -340,6 +360,29 @@
         "Id": "422809127"
        }
       ]
+     }
+    ],
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "3177428469",
+      "Name": "cave_reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\cave_reverb",
+      "GUID": "{8CBCF87D-350C-48F4-8EC6-8E97977537C6}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3546444380"
+        }
+       ]
+      }
      }
     ],
     "SwitchGroups": [
@@ -366,6 +409,6 @@
     ]
    }
   ],
-  "FileHash": "{AC9F6DA7-78B1-78CE-FA1C-DAE855421A34}"
+  "FileHash": "{222C2786-9ADA-E2D8-BB63-C04B23ADA6F8}"
  }
 }

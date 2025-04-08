@@ -11,6 +11,7 @@
 						<ObjectRef Name="amb_forest_day" ID="{7BD62FD3-5A58-45FA-B173-85BF081CA37C}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="footsteps_land" ID="{8EF7B7DC-C435-4884-95A8-AC37C275DB96}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="amb" ID="{CFE85D24-79A7-48A3-ACD8-8F89CF0B31C5}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="cave_reverb" ID="{8CBCF87D-350C-48F4-8EC6-8E97977537C6}" WorkUnitID="{A2E80D2C-43C5-4DB3-A50A-5E6D47D708A0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="amb_cave" ID="{B3F025C3-976B-4923-8A13-6A8E02D57D3A}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="test" ID="{28CA5875-5873-4C9D-8D26-B9B7506EE1CF}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="amb_forest_night" ID="{0912513B-6730-4D80-A0BB-4EB39659962D}" WorkUnitID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" Origin="Manual" Filter="7"/>

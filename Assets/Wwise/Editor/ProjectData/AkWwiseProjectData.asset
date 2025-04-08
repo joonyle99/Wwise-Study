@@ -66,8 +66,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2c0de8a2c543b34da50a5e6d47d708a0
     GuidInternal: 
-    m_lastTime: -8584582581059576555
+    m_lastTime: -8584574863014849108
     List:
+    - name: cave_reverb
+      guid: 7df8bc8c0c35f4488ec68e97977537c6
+      id: 3177428469
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2c0de8a2c543b34da50a5e6d47d708a0
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: cave_reverb
+        ObjectType: 1
+        guid: 7df8bc8c0c35f4488ec68e97977537c6
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\cave_reverb
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -94,7 +111,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6f44c802318a094ebdf3c00776922229
     GuidInternal: 
-    m_lastTime: -8584582581056230580
+    m_lastTime: -8584574860866599034
     List:
     - name: Main
       guid: 466e3a95b07dda42aa6e1dd0a99098fc
@@ -393,7 +410,7 @@ MonoBehaviour:
     m_lastTime: -8584582581056204548
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000080000000a0000000b0000000c00000012000000130000001400000085000000860000008700000088000000b0000000b1000000b2000000b7000000b8000000b9000000d7000000d8000000230100002401000025010000
+  ExpandedWaapiItemIds: 010000000300000004000000050000000600000007000000080000000a0000000b0000000c00000012000000130000001400000085000000860000008700000088000000b0000000b1000000b2000000b7000000b8000000b9000000d7000000d8000000230100002401000025010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

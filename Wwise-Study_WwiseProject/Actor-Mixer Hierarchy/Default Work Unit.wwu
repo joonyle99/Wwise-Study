@@ -132,6 +132,11 @@
 									</MediaIDList>
 								</AudioFileSource>
 								<AudioFileSource Name="AMB_cave (1)" ID="{1EEDE2B2-5A2B-4CFD-B58D-0C145063FD2A}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.88354655601573"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.50158526970839"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>AMB_cave (1).wav</AudioFile>
 									<MediaIDList>
@@ -164,9 +169,12 @@
 						<RandomSequenceContainer Name="grass" ID="{B2F1CCFA-25EA-48C5-B5E5-0146E24DF41E}" ShortID="998311806">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -180,6 +188,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="grass_1" ID="{29332D33-E302-472B-88BC-3D360F936E0F}" ShortID="330702692">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -207,6 +220,11 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="grass_2" ID="{560EA9E5-9EB4-4241-AA03-A364073EF708}" ShortID="252749379">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -234,6 +252,11 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="grass_3" ID="{247E8FF7-EB82-4C68-BB05-BDA98884CD95}" ShortID="825960739">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -261,6 +284,11 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="grass_4" ID="{2F7DEC63-2D0F-41B8-8408-20A1EB331FC8}" ShortID="581880260">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -292,6 +320,9 @@
 						<RandomSequenceContainer Name="concrete" ID="{2C7BB9BB-46E9-4C53-8688-FDE07A337F4F}" ShortID="477223298">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-3</Value>
@@ -308,6 +339,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="concrete_1" ID="{9D7FD507-22D1-4668-96DC-2B35938F1E53}" ShortID="767233608">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -330,6 +366,11 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="concrete_2" ID="{55151776-D513-47CA-8952-87CAD2BD4F39}" ShortID="498343139">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -352,6 +393,11 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="concrete_3" ID="{6D4981D0-1655-4F1C-9707-79B3DC43B3EE}" ShortID="493010769">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -374,6 +420,11 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="concrete_4" ID="{B74CB0E5-D7F4-4A84-B8C2-1F88FB29D2ED}" ShortID="957951026">
+									<PropertyList>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC1F13F1-4DFF-42BC-9D0A-A3A40EF42E4E}"/>
@@ -426,6 +477,11 @@
 				<Sound Name="SFX_fire_loop" ID="{72BC1013-4067-4D10-A5E2-1655FFC293DD}" ShortID="769274402">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-29</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>6</Value>
@@ -441,6 +497,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A2E80D2C-43C5-4DB3-A50A-5E6D47D708A0}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="cave_reverb" ID="{8CBCF87D-350C-48F4-8EC6-8E97977537C6}" WorkUnitID="{A2E80D2C-43C5-4DB3-A50A-5E6D47D708A0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

@@ -5,6 +5,12 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3177428469	cave_reverb			\Default Work Unit\Master Audio Bus\cave_reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3546444380	Big_Garage1	Wwise Matrix Reverb			
+
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			
