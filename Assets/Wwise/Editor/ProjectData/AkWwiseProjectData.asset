@@ -111,7 +111,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6f44c802318a094ebdf3c00776922229
     GuidInternal: 
-    m_lastTime: -8584574860866599034
+    m_lastTime: -8584573351170999952
     List:
     - name: Main
       guid: 466e3a95b07dda42aa6e1dd0a99098fc
@@ -139,7 +139,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 53af63b8367c504ebe45bcf62260a723
     GuidInternal: 
-    m_lastTime: -8584582581062548597
+    m_lastTime: -8584573351171356847
     List:
     - name: amb
       guid: 245de8cfa779a348acd88f89cf0b31c5
@@ -235,23 +235,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.75316447
       minDuration: 0.6333333
-    - name: footsteps_land
-      guid: dcb7f78e35c4844895a8ac37c275db96
-      id: 3261944238
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 53af63b8367c504ebe45bcf62260a723
-      - ElementName: footsteps_land
-        ObjectType: 3
-        guid: dcb7f78e35c4844895a8ac37c275db96
-      Path: Events\Default Work Unit\footsteps_land
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
     - name: footsteps_run
       guid: d2b45119d826b64489d885b85d37be0c
       id: 2462760816
@@ -279,30 +262,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 53af63b8367c504ebe45bcf62260a723
+      - ElementName: amb
+        ObjectType: 4
+        guid: 245de8cfa779a348acd88f89cf0b31c5
       - ElementName: sfx_fire
         ObjectType: 3
         guid: 43446bfeb72b2d45a19a5deb638c63a7
-      Path: Events\Default Work Unit\sfx_fire
+      Path: Events\Default Work Unit\amb\sfx_fire
       maxAttenuation: 15
       maxDuration: 0
       minDuration: 0
-    - name: test
-      guid: 7558ca2873589d4c8d26b9b7506ee1cf
-      id: 3157003241
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 53af63b8367c504ebe45bcf62260a723
-      - ElementName: test
-        ObjectType: 3
-        guid: 7558ca2873589d4c8d26b9b7506ee1cf
-      Path: Events\Default Work Unit\test
-      maxAttenuation: 0
-      maxDuration: 0.23552084
-      minDuration: 0.23552084
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

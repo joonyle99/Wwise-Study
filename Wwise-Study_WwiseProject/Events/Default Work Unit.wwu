@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{B863AF53-7C36-4E50-BE45-BCF62260A723}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="test" ID="{28CA5875-5873-4C9D-8D26-B9B7506EE1CF}">
-					<ChildrenList>
-						<Action Name="" ID="{BF3A7534-F67B-428F-A67F-4784BE608C48}" ShortID="516297065">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="test" ID="{EC9DC1A8-E6F6-4007-949A-C3CEE6DC80C9}" WorkUnitID="{FD5E5981-420A-4FA6-847E-4E6879AC4FDF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="footsteps_run" ID="{1951B4D2-26D8-44B6-89D8-85B85D37BE0C}">
 					<ChildrenList>
 						<Action Name="" ID="{E720ABDC-70DC-421C-AF1F-0D4F09BB7EC8}" ShortID="313070070">
@@ -31,28 +20,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="footsteps_jump" ID="{B8A6F9C4-90D1-43C5-B13A-6A97B673D39B}" WorkUnitID="{FD5E5981-420A-4FA6-847E-4E6879AC4FDF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="footsteps_land" ID="{8EF7B7DC-C435-4884-95A8-AC37C275DB96}">
-					<ChildrenList>
-						<Action Name="" ID="{D907FAEC-C35A-4742-A6B2-1266B230EA90}" ShortID="366217331">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="footsteps_land" ID="{72B6017F-FB32-4535-AB5F-F14FE449A28D}" WorkUnitID="{FD5E5981-420A-4FA6-847E-4E6879AC4FDF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="sfx_fire" ID="{FE6B4443-2BB7-452D-A19A-5DEB638C63A7}">
-					<ChildrenList>
-						<Action Name="" ID="{6700B2CC-0916-4FFB-8A9F-538D1EFCB7BB}" ShortID="256779744">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_fire_loop" ID="{72BC1013-4067-4D10-A5E2-1655FFC293DD}" WorkUnitID="{FD5E5981-420A-4FA6-847E-4E6879AC4FDF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -88,6 +55,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="amb_cave" ID="{E5854945-5124-4FF3-906E-C41B726D87B9}" WorkUnitID="{FD5E5981-420A-4FA6-847E-4E6879AC4FDF}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_fire" ID="{FE6B4443-2BB7-452D-A19A-5DEB638C63A7}">
+							<ChildrenList>
+								<Action Name="" ID="{6700B2CC-0916-4FFB-8A9F-538D1EFCB7BB}" ShortID="256779744">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_fire_loop" ID="{72BC1013-4067-4D10-A5E2-1655FFC293DD}" WorkUnitID="{FD5E5981-420A-4FA6-847E-4E6879AC4FDF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
